@@ -9,3 +9,6 @@ The file "Greenwashing table - mockup.xlsx" contains a table with the results of
 .
 └── Greenwashing table - mockup.xlsx # the mockup greenwashing table which can be direclty re-used
 ```
+
+# Analysis explanation
+say that the total expenditures
