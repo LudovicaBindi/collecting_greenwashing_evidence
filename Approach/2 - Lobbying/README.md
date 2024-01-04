@@ -18,7 +18,7 @@ In the "Total expenditures.xslx" file in the "Output" folder, I show how I take 
 ```
 
 # Analysis explanation
-What follows is a summary of what is more thoroughly in the thesis report stored at the root of this repository regarding this analysis. The goal of this analysis is to quantify the lobbying data in order to compare it with the communication analysis results.
+What follows is a summary of what is more thoroughly discussed in the thesis report stored at the root of this repository regarding this analysis. The goal of this analysis is to quantify the lobbying data in order to compare it with the communication analysis results.
 
 The data comes from the Transaprency Register:
 * the data can be downloaded from the company's page on the web version of the Transparency Register (https://ec.europa.eu/transparencyregister/public/consultation/search.do?locale=en&reset=) or can be downloaded in an easier-to-user Excel format from the company's page on LobbyFacts (https://www.lobbyfacts.eu/)

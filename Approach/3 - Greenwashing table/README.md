@@ -11,7 +11,7 @@ The file "Greenwashing table - mockup.xlsx" contains a table with the results of
 ```
 
 # Analysis explanation
-What follows is a summary of what is more thoroughly in the thesis report stored at the root of this repository regarding this analysis. 
+What follows is a summary of what is more thoroughly discussed in the thesis report stored at the root of this repository regarding this analysis.
 
 In this step of the approach the data that has been produced from the previous steps is collected and displayed:
 * regarding the communication, the percentage of the "relevant" sentences that fall within the "stating_intentions", "acknowlege_importance", "support_for_policy", "support_for_government", "company_beliefs", and "common_beliefs" are displayed.
