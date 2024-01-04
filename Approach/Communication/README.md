@@ -21,6 +21,13 @@ Some of the files name present some abbreviation:
 * gen. = general
 * detail. = detailed
 
+Each of these files has the same sheets:
+* <i>README</i>: contains a brief description of what is being tested in the file.
+* <i>training sentences</i>: the sentences and their labels being used in the file.
+* <i>results</i>: the results of the different classifications using the different prompts (listed in the "prompts" sheet). Note for each prompt I ran the classification twice (that is, I used GPT twice to classify the sentences. That's why in the file there are two "rounds" of classification results)
+* <i>prompts</i>: the descriptions of the prompts used for the classification.
+* <i>testing</i>: used for some testing where I manually change the results of the GPT classification to see how the accuracy would change if GPT had given a different answer to the classification. There is a description of what I am testing on at the beginning of the file. This sheet is not always present.
+
 
 <i>Figure 1. The created tree structure that is used to classify the sentences.</i>
 </br>
