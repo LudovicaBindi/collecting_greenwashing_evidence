@@ -1,8 +1,10 @@
 # Description
-This folder contains the part of the approach that deals with the analysis of the meetings to determine whether they are related to climate change or not via a keyword-based filtering.
+This folder contains the part of the approach that deals with the analysis of the meetings to determine whether they are related to climate change or not via a keyword-based filtering. Moreover, also I show an example of taking the average of the total expenditures from the data given in the TR.
 
 # How to use
-The code that runs the analysis is contained in the "Running lobbying analysis of companies' meetings.ipynb" notebook. The keywords are present in the "lobbying_climate_keywords.xlsx": each row presents a keyword in the "Original keywords" column and its synonsyms, related words, different spellings, etc. of that keyword in the "synonyms/related" column.
+The code that runs the analysis of the meetings is contained in the "Running lobbying analysis of companies' meetings.ipynb" notebook. The keywords are present in the "lobbying_climate_keywords.xlsx": each row presents a keyword in the "Original keywords" column and its synonsyms, related words, different spellings, etc. of that keyword in the "synonyms/related" column. For some sample companies there are their meetings' lists in the "Input" folder and the results of the analysis carried out on these lists in the "Output" folder.
+
+In the "Total expenditures.xslx" file in the "Output" folder, I show how I take the average of the total expenditures of some sample companies declared on the TR because the data there is displayed as a bracket (e.g., 400 000 – 499 999). The original data of the sample companies is in the "Input" folder in the "Companies' entries on the TR.xlsx" file.
 
 # Folder structure
 ``` bash
@@ -16,7 +18,7 @@ The code that runs the analysis is contained in the "Running lobbying analysis o
 ```
 
 # Analysis explanation
-The goal of this analysis is to quantify the lobbying data in order to compare it with the communication analysis results.
+What follows is a summary of what is more thoroughly in the thesis report stored at the root of this repository regarding this analysis. The goal of this analysis is to quantify the lobbying data in order to compare it with the communication analysis results.
 
 The data comes from the Transaprency Register:
 * the data can be downloaded from the company's page on the web version of the Transparency Register (https://ec.europa.eu/transparencyregister/public/consultation/search.do?locale=en&reset=) or can be downloaded in an easier-to-user Excel format from the company's page on LobbyFacts (https://www.lobbyfacts.eu/)
@@ -30,3 +32,7 @@ The main part of this process is the keywords that I use for the filtering. The 
 These keywords want to capture all the meetings that are more likely to be lobbying on specific regulations or that discuss climate change in general. I included in the keywords also related words, synonyms, and acronyms of the original list for more accurate filtering. Different spellings and all the plurals of the words were included for an easier filtering process.
 
 To conduct the filtering, I used Python and the library “re - Regular expression operations” to find the exact matches of keywords. I didn’t consider the capitalization of words as relevant (therefore, I first transformed all descriptions and keywords into lowercase) because I assumed that mistakes in capitalization could easily happen. For the actual filtering, a meeting was deemed relevant to climate change if any of the keywords were found in the description. Finally, the share of the relevant meeting was computed as the number of relevant meetings over the total meetings recorded.
+
+Note that the lobbying analysis approach also consist of getting the total lobbying expenditures of the companies. These are total expenditures of the company that are decleared on the Transparency Register:
+    * the total expenditure number is provided as value brackets (e.g., 400 000 – 499 999) and, therefore, the analysis consists on taking the average of the upper and lower brackets.
+    * the data of the total expenditures can be seen on the company's entry on the Excel version of the Transparency Regsiter (downloadable from https://data.europa.eu/data/datasets/transparency-register?)locale=en or consulted it on the company's entry on the web version of the Transperncy Regsiter (https://ec.europa.eu/transparencyregister/public/consultation/search.do?locale=en&reset=)

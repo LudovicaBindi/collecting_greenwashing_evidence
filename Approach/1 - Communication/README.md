@@ -52,7 +52,7 @@ Each of these files has the same sheets:
 
 
 # Analysis explantaions
-There are two steps of the analysis in this folder collected: in the first, I inductively coded some sample sentences that I collected; in the second, a created a tree that enable to properly code these sentences in a deductive manner via GPT. What follows is a summary what is discussed more thoroughly in the thesis report stored at the root of this repository.
+There are two steps of the analysis in this folder collected: in the first, I inductively coded some sample sentences that I collected; in the second, a created a tree that enable to properly code these sentences in a deductive manner via GPT. What follows is a summary of what is more thoroughly in the thesis report stored at the root of this repository regarding this analysis.
 
 ### Step 1: Inductive coding
 The sample companies that were chosen were: Saudi Aramco, Amazon, Sinopec Group, Volkswagen, Uniper, and McKesson.
