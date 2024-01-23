@@ -1,5 +1,7 @@
 # Description
-This repository contains the data that my thesis was based on and that was produced. Moreover, codes and files that were used to elaborate the original data and produce results are also shared. The thesis report is also shared in this repository.
+This repository is one of the products of the thesis called "Designing a semi-automated approach to find potential evidence of corporate greenwashing" that I conducted in partial fulfillment of the requirements for the degree of Master of Science in Engineering and Policy Analysis at Delft University of Technology. This thesis was publicly defended on January 16, 2024.
+
+This repository contains the data that my thesis was based on and that was produced. Moreover, codes and files that were used to elaborate the original data and produce results are also shared. The thesis report is also shared in this repository along with the a PowerPoint presentation about it that was used to defend this thesis.
 
 # How to use
 The repository is divided in two parts:
@@ -27,5 +29,6 @@ There are further README.md that describes the particular sections of this repos
 |   └── 3 - Greenwashing table/ # the displaying of the final results of the demonstration
 |       └── README.md # README that describes this folder
 |
-└── Thesis report.pdf # the report of the thesis.
+├── Thesis report.pdf # the report of the thesis.
+└── Thesis presentation.pptx # the PowerPoint presentation of this thesis.
 ```
