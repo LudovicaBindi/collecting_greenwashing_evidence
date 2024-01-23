@@ -1,5 +1,5 @@
 # Description
-This repository is one of the products of the thesis called "Designing a semi-automated approach to find potential evidence of corporate greenwashing" that I conducted in partial fulfillment of the requirements for the degree of Master of Science in Engineering and Policy Analysis at Delft University of Technology. This thesis was publicly defended on January 16, 2024.
+This repository is one of the products of the thesis called "Designing a semi-automated approach to find potential evidence of corporate greenwashing" that I conducted in partial fulfillment of the requirements for the degree of Master of Science in Engineering and Policy Analysis at Delft University of Technology. This thesis was publicly defended on January 16, 2024. This thesis can be found on the official TU Delft repository [here](https://repository.tudelft.nl/islandora/object/uuid%3Aca6976fe-c1a0-4aa2-89b2-662ba4212e6e?collection=education).
 
 This repository contains the data that my thesis was based on and that was produced. Moreover, codes and files that were used to elaborate the original data and produce results are also shared. The thesis report is also shared in this repository along with the a PowerPoint presentation about it that was used to defend this thesis.
 
